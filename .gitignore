@@ -1,0 +1,31 @@
+# Keep project content and documentation only
+/*
+!/wp-content/
+!/README.md
+!/.gitignore
+
+# Private WordPress configuration and local settings
+/wp-config.php
+.htaccess
+**/.htaccess
+
+# Database backups - never commit
+*.sql
+*.sql.gz
+*.dump
+
+# Logs and temporary files
+*.log
+/wp-content/debug.log
+/wp-content/upgrade/
+/wp-content/cache/
+
+# Local backup archives
+/wp-content/ai1wm-backups/
+/wp-content/backups/
+*.wpress
+
+# Operating system files
+Thumbs.db
+.DS_Store
+desktop.ini
